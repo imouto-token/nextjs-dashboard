@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "seed": "node -r dotenv/config ./scripts/seed.js"
+  },
   "private": true,
   "scripts": {
     "build": "next build",
